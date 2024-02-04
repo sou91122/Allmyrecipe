@@ -1,0 +1,365 @@
+@media(min-width:1200px) {
+    .container {
+        max-width: 1200px;
+    }
+}
+
+@media(min-width:992px) {
+    header .nav-link {
+        color: #ffffff;
+    }
+
+    .navbar-expand-lg .navbar-nav .nav-link {
+        padding: 25px 20px;
+    }
+
+    header.fixed .navbar-nav .nav-link {
+        padding: 12px 20px;
+    }
+}
+
+@media (max-width:1199px) {
+    .navbar .navbar-brand img {
+        max-width: 190px;
+    }
+
+    #latest-recipe .latest-recipe-content .latest-recipe-list .recipe-box {
+        max-height: 100%;
+    }
+}
+
+@media (max-width:991px) {
+    .navbar {
+        padding: 7px 0;
+    }
+
+    .navbar-nav {
+        padding-top: 10px;
+    }
+
+    header .navbar-expand-lg .navbar-nav .nav-link {
+        background-color: transparent;
+        color: #000000;
+        padding: 5px 0;
+        margin: 0;
+        font-size: 1.2rem;
+    }
+
+    header.bg-white .navbar .navbar-brand .logo {
+        display: none;
+    }
+
+    header.bg-white .navbar .navbar-brand .logo-alt {
+        display: block;
+    }
+
+    header.bg-white .navbar .form-inline {
+        justify-content: center;
+    }
+
+    #banner .banner-content h3 {
+        font-size: 2.5rem;
+    }
+
+    #banner .banner-content .recipe-type span {
+        font-size: 1rem;
+        padding: 4px 5px;
+    }
+
+    #banner .banner-content .recipe-type span img {
+        width: 10px;
+    }
+
+    #banner .banner-content .recipe-details-area {
+        margin-bottom: 10px;
+    }
+
+    #banner .banner-content .recipe-details-area ul li,
+    #banner .banner-content p {
+        font-size: 1.2rem;
+    }
+
+    #banner .carousel-item {
+        max-height: 450px;
+    }
+
+    #latest-recipe .latest-recipe-content .latest-recipe-list {
+        padding: 20px 0 0 0;
+    }
+
+    #latest-recipe .latest-recipe-content .latest-featured .img-area {
+        height: 350px;
+    }
+
+    #latest-recipe .latest-recipe-content .latest-featured .img-area {
+        height: 350px;
+    }
+
+    #recipe-day {
+        padding-top: 30px;
+    }
+
+    #recipe-day .section-heading {
+        font-size: 2.3rem;
+    }
+
+    #recipe-day .recipe-day-content {
+        margin: 0;
+    }
+
+    #recipe-day .recipe-day-content .text-area {
+        padding: 20px 0 0 0;
+    }
+
+    #recipe-day .recipe-day-content .text-area .recipe-title {
+        font-size: 2.4rem;
+    }
+
+    footer .footer-links .footer-link-box .social-link-area li a {
+        width: 22px;
+        height: 22px;
+        line-height: 22px;
+        font-size: 1rem;
+    }
+}
+
+@media (max-width:767px) {
+    .link-btn {
+        font-size: 1.1rem;
+        margin-top: 6px;
+    }
+
+    .navbar .navbar-brand img,
+    header.fixed .navbar .navbar-brand img.logo-alt {
+        max-width: 135px;
+    }
+
+    #banner .carousel-item {
+        max-height: 350px;
+    }
+
+    #banner .carousel-indicators li {
+        width: 4px;
+        height: 12px;
+        margin: 0 4px;
+    }
+
+    #banner .carousel-indicators li.active {
+        height: 16px;
+    }
+
+    #banner .banner-content .carousel-caption {
+        width: 93%;
+    }
+
+    #banner .banner-content h3 {
+        font-size: 2rem;
+    }
+
+    #banner .banner-content .recipe-type {
+        display: none !important;
+    }
+
+    #banner .banner-content p {
+        max-height: 20px;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+    }
+
+    #banner .banner-content .banner-form .explore-btn {
+        padding: 10px 30px 10px 20px;
+        font-size: 1rem;
+    }
+
+    #banner .banner-content .recipe-details-area ul li+li {
+        padding-left: 10px;
+    }
+
+    #banner .banner-content .recipe-details-area ul li,
+    #banner .banner-content p {
+        font-size: 1rem !important;
+    }
+
+    #latest-recipe .latest-recipe-content .latest-recipe-list .recipe-box {
+        max-height: 92px;
+    }
+
+    #latest-recipe .latest-recipe-content .latest-recipe-list .recipe-box .text-area {
+        padding: 5px 5px 5px 10px;
+    }
+
+    #latest-recipe .latest-recipe-content .latest-recipe-list .recipe-box .text-area h5 a {
+        font-size: 1.2rem;
+    }
+
+    #latest-recipe .latest-recipe-content .latest-recipe-list .recipe-box .recipe-details-area ul li+li {
+        padding-left: 8px;
+    }
+
+    #latest-recipe .latest-recipe-content .latest-recipe-list .recipe-box .recipe-details-area ul li {
+        font-size: 0.9rem;
+    }
+
+    footer .footer-links {
+        padding-bottom: 20px;
+    }
+
+    footer .footer-links .footer-link-box {
+        margin-bottom: 20px;
+    }
+
+}
+
+@media(max-width: 576px) {
+    p {
+        font-size: 1.2rem !important;
+    }
+
+    .btn {
+        font-size: 1.1rem !important;
+        padding: 10px 30px 10px 15px;
+    }
+
+    .section-heading {
+        font-size: 1.9rem !important;
+    }
+
+    header {
+        background-color: rgba(0, 0, 0, 0.425);
+    }
+
+    #banner .bg-overlay {
+        filter: none;
+        transform: scale(1);
+    }
+
+    #banner .bg-overlay::before {
+        opacity: 0.2;
+    }
+
+    #banner .banner-content .carousel-caption {
+        width: 100%;
+        padding: 14px;
+        background-color: rgba(0, 0, 0, 0.589);
+        top: 100%;
+        transform: translate(-50%, -100%);
+    }
+
+    #banner .banner-content h3 {
+        font-size: 1.6rem;
+    }
+
+    #banner .banner-content .recipe-details-area ul li:nth-child(4),
+    #banner .banner-content .recipe-details-area ul li:nth-child(5) {
+
+        display: none;
+    }
+
+    #banner .banner-content .banner-form .explore-btn {
+        padding: 8px 28px 8px 15px;
+        margin: 10px 0 0 0;
+        font-size: 1rem !important;
+    }
+
+    #banner .carousel-indicators {
+        display: none;
+    }
+
+    #category .category-list .category-item img {
+        max-width: 40px;
+    }
+
+    #category .category-list .category-item span {
+        font-size: 1.1rem;
+    }
+
+    #latest-recipe::before {
+        display: none;
+    }
+
+    #latest-recipe .latest-recipe-content .latest-featured .text-area .recipe-type {
+        display: none !important;
+    }
+
+    #latest-recipe .latest-recipe-content .latest-featured .text-area {
+        padding: 15px;
+    }
+
+    #latest-recipe .latest-recipe-content .latest-featured .text-area a {
+        font-size: 1.6rem;
+    }
+
+    #latest-recipe .latest-recipe-content .latest-featured .recipe-details-area ul li {
+        font-size: 1rem;
+    }
+
+    #latest-recipe .latest-recipe-content .latest-featured .recipe-details-area ul li+li {
+        padding-left: 17px;
+    }
+
+    #latest-recipe .latest-recipe-content .latest-featured .text-area p {
+        font-size: 1.1rem !important;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+    }
+
+    #recipe-day .recipe-day-content {
+        padding: 10px;
+    }
+
+    #recipe-day .recipe-day-content .recipe-duration-details {
+        display: none !important;
+    }
+
+    #recipe-day .recipe-day-content .text-area .recipe-title {
+        font-size: 1.8rem;
+    }
+
+    #recipe-day .recipe-day-content .text-area .ingredients h4 {
+        font-size: 1.4rem;
+    }
+
+    #recipe-day .recipe-day-content .text-area .ingredients ul li {
+        font-size: 1.2rem;
+    }
+
+    #cuisine-area .cuisine-list .cuisine-item {
+        height: 75px;
+    }
+
+    #cuisine-area .cuisine-list .cuisine-item .cuisine-text {
+        padding: 10px;
+    }
+
+    #cuisine-area .cuisine-list .cuisine-item .cuisine-text p {
+        font-size: 1.3rem !important;
+        margin-bottom: 9px;
+    }
+
+    #cuisine-area .cuisine-list .cuisine-item::after {
+        display: none;
+    }
+
+    #cuisine-area .cuisine-list .cuisine-item .cuisine-text span {
+        font-size: 1rem;
+    }
+
+    footer {
+        padding: 20px 0 0;
+    }
+
+    footer .footer-links .footer-link-box .footer-link-heading {
+        font-size: 1.6rem;
+        margin-bottom: 10px;
+    }
+
+    footer .footer-links .footer-link-box .social-link-area li+li {
+        margin-left: 3px;
+    }
+
+    footer .footer-links .footer-link-box ul li a {
+        font-size: 1.1rem;
+    }
+}
